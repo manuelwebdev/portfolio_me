@@ -1,24 +1,24 @@
 <template>
-  <v-toolbar app class="primary">
+  <v-toolbar app fixed class="primary">
     <v-toolbar-title class="headline text-uppercase">
       <span class="font-weight-light white--text">Manuel Espinoza</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
     <router-link tag="v-btn" to="/">
-      <v-btn flat class="mx-0">
+      <v-btn flat class="mx-0 white--text">
         <span>Home</span>
       </v-btn>
     </router-link>
 
     <router-link tag="v-btn" to="/about">
-      <v-btn flat>
+      <v-btn flat class="mx-0 white--text">
         <span>About</span>
       </v-btn>
     </router-link>
 
     <v-btn flat href="https://github.com/manoy96" target="_blank">
-      <span class="mr-1">GitHub</span>
+      <span class="mr-1 white--text"><i class="fab fa-github fa-lg"></i> GitHub</span>
     </v-btn>
     
   </v-toolbar>
