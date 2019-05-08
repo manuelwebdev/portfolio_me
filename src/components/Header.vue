@@ -1,7 +1,7 @@
 <template>
-  <v-toolbar app>
+  <v-toolbar app class="primary">
     <v-toolbar-title class="headline text-uppercase">
-      <span class="font-weight-light">Manuel Espinoza</span>
+      <span class="font-weight-light white--text">Manuel Espinoza</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 
