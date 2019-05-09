@@ -1,8 +1,8 @@
 <template>
   <v-toolbar app fixed class="primary">
-    <v-toolbar-title class="headline text-uppercase">
+    <!-- <v-toolbar-title class="headline text-uppercase">
       <span class="font-weight-light white--text">Manuel Espinoza</span>
-    </v-toolbar-title>
+    </v-toolbar-title> -->
     <v-spacer></v-spacer>
 
     <router-link tag="v-btn" to="/">
