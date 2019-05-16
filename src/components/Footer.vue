@@ -1,8 +1,7 @@
 <template>
   <v-footer dark height="auto">
     <v-card class="flex" flat tile>
-      <v-card-title class="secondary">
-        <strong class="subheading">Find me on my socials!</strong>
+      <v-card-title class="secondary" >
         <v-spacer></v-spacer>
         <v-btn large icon flat href="https://www.instagram.com/mespinut/" target="_blank">
             <i class="fab fa-instagram fa-2x"></i>
@@ -14,8 +13,9 @@
             <i class="fab fa-linkedin-in fa-2x"></i>
         </v-btn>
         <v-btn large icon flat href="https://github.com/manoy96" target="_blank">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github fa-2x"></i>
         </v-btn>
+        <v-spacer></v-spacer>
       </v-card-title>
 
       <v-card-actions class="primary justify-center">
@@ -28,13 +28,6 @@
 
 <script>
 export default {
-     data: () => ({
-      icons: [
-        'fab fa-twitter',
-        'fab fa-linkedin',
-        'fab fa-instagram'
-      ]
-    })
 };
 </script>
 
