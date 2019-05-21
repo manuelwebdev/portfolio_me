@@ -10,7 +10,6 @@
     </v-container>
     <v-container fluid class="accent">
       <h2 class="display-3 black--text">CONTENT</h2>
-      <p>subcontent</p>
     </v-container>
   </div>
 </template>
