@@ -14,7 +14,7 @@
     <v-container fluid class="accent">
       <h2 class="display-3 black--text">MY WORK</h2>
       <v-layout>
-        <v-flex lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3 ma-2>
           <v-card>
             <v-img
               class="white--text"
@@ -44,7 +44,7 @@
             </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3 ma-2>
           <v-card>
             <v-img
               class="white--text"
@@ -74,7 +74,7 @@
             </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3 ma-2>
           <v-card>
             <v-img
               class="white--text"
@@ -104,7 +104,7 @@
             </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3 ma-2>
           <v-card>
             <v-img
               class="white--text"
