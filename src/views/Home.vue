@@ -10,6 +10,7 @@
     </v-container>
     <v-container fluid>
       <h2 class="display-3 black--text">SKILLS</h2>
+      <v-progress-linear color="secondary" height="20" value="75"></v-progress-linear>
     </v-container>
     <v-container fluid class="accent">
       <h2 class="display-3 black--text">MY WORK</h2>
