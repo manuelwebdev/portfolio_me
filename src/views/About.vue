@@ -22,9 +22,11 @@
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
           </v-card>
         </v-timeline-item>
-        <v-timeline-item large>
+        <!-- --------------------- -->
+        <v-timeline-item color="white" large>
           <v-avatar slot="icon">
-            <img src="http://i.pravatar.cc/64">
+            <!-- <img src="http://i.pravatar.cc/64"> -->
+            <i class="fas fa-gamepad fa-2x"></i>
           </v-avatar>
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">

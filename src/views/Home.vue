@@ -8,10 +8,34 @@
         </h1>
       </v-layout>
     </v-container>
+    <!-- --------------------- -->
     <v-container fluid>
       <h2 class="display-3 black--text">SKILLS</h2>
-      <v-progress-linear color="secondary" height="20" value="75"></v-progress-linear>
+      <v-layout row>
+        <v-flex xs6 class="mx-2">
+          <v-card dark color="secondary">
+            <v-card-text class="px-0"></v-card-text>
+            <v-img
+              src="../assets/profile.jpg"
+            ></v-img>
+          </v-card>
+        </v-flex>
+        <!-- --------------------- -->
+        <v-flex xs6 class="mx-2">
+          <h3 class="display-2 black--text">SKILLS</h3>
+          <v-card dark color="accent">
+            <!-- <v-card-text class="px-0">6</v-card-text> -->
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+          </v-card>
+        </v-flex>
+      </v-layout>
     </v-container>
+    <!-- --------------------- -->
     <v-container fluid class="accent">
       <h2 class="display-3 black--text">MY WORK</h2>
       <v-layout>
@@ -140,7 +164,6 @@
     </v-container>
     <v-container fluid>
       <h2 class="display-3 black--text">CONTACT</h2>
-      
     </v-container>
   </div>
 </template>
