@@ -11,21 +11,24 @@
     </div>
     <v-container>
       <v-timeline>
-        <v-timeline-item left large>
+        <v-timeline-item color="white" large>
+          <v-avatar slot="icon">
+            <!-- <img src="http://i.pravatar.cc/64"> -->
+            <i class="fas fa-user fa-2x"></i>
+          </v-avatar>
+          <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
             <v-card-title class="headline">My Life</v-card-title>
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
           </v-card>
         </v-timeline-item>
-        <v-timeline-item right color="blue lighten-2" large>
+        <v-timeline-item large>
+          <v-avatar slot="icon">
+            <img src="http://i.pravatar.cc/64">
+          </v-avatar>
+          <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
             <v-card-title class="headline">My Hobbies</v-card-title>
-            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
-          </v-card>
-        </v-timeline-item>
-        <v-timeline-item left color="green lighten-2" large>
-          <v-card class="elevation-2">
-            <v-card-title class="headline">My Goals</v-card-title>
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
           </v-card>
         </v-timeline-item>
