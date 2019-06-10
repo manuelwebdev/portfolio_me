@@ -11,7 +11,7 @@
     </div>
     <v-container>
       <v-timeline>
-        <v-timeline-item left color="red lighten-2" large>test
+        <v-timeline-item left large>
           <v-card class="elevation-2">
             <v-card-title class="headline">My Life</v-card-title>
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
