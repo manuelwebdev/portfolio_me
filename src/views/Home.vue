@@ -12,14 +12,11 @@
     <v-container fluid>
       <h2 class="display-3 black--text">WHAT DO I KNOW</h2>
       <v-layout row>
-        <v-flex xs6 class="mx-2">
-          <v-card dark color="secondary">
-            <v-card-text class="px-0"></v-card-text>
-            <v-img
-              src="../assets/profile.jpg"
-            ></v-img>
-          </v-card>
-        </v-flex>
+        <v-layout column align-center class="pt-3">
+          <v-avatar size="130" color="grey lighten-4">
+            <img src="../assets/profile.jpg" alt="avatar">
+          </v-avatar>
+        </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
           <h3 class="display-2 black--text">SKILLS</h3>
