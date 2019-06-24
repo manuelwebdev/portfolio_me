@@ -10,7 +10,7 @@
     </v-container>
     <!-- --------------------- -->
     <v-container fluid>
-      <h2 class="display-3 black--text">SKILLS</h2>
+      <h2 class="display-3 black--text">WHAT DO I KNOW</h2>
       <v-layout row>
         <v-flex xs6 class="mx-2">
           <v-card dark color="secondary">
