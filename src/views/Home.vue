@@ -16,6 +16,7 @@
           <v-avatar size="130" color="grey lighten-4">
             <img src="../assets/profile.jpg" alt="avatar">
           </v-avatar>
+          
         </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
