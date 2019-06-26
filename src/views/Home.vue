@@ -9,6 +9,34 @@
       </v-layout>
     </v-container>
     <!-- --------------------- -->
+    <v-container>
+      <v-timeline>
+        <v-timeline-item color="white" large>
+          <v-avatar slot="icon">
+            <!-- <img src="http://i.pravatar.cc/64"> -->
+            <i class="fas fa-user fa-2x"></i>
+          </v-avatar>
+          <!-- <span slot="opposite">Tus eu perfecto</span> -->
+          <v-card class="elevation-2">
+            <v-card-title class="headline">My Life</v-card-title>
+            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+          </v-card>
+        </v-timeline-item>
+        <!-- --------------------- -->
+        <v-timeline-item color="white" large>
+          <v-avatar slot="icon">
+            <!-- <img src="http://i.pravatar.cc/64"> -->
+            <i class="fas fa-gamepad fa-2x"></i>
+          </v-avatar>
+          <!-- <span slot="opposite">Tus eu perfecto</span> -->
+          <v-card class="elevation-2">
+            <v-card-title class="headline">My Hobbies</v-card-title>
+            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+          </v-card>
+        </v-timeline-item>
+      </v-timeline>
+    </v-container>
+    <!-- --------------------- -->
     <v-container fluid>
       <h2 class="display-3 black--text">WHAT DO I KNOW</h2>
       <v-layout row>
@@ -16,7 +44,7 @@
           <v-avatar size="130" color="grey lighten-4">
             <img src="../assets/profile.jpg" alt="avatar">
           </v-avatar>
-          
+          <h5 class="headline black--text">test</h5>
         </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
