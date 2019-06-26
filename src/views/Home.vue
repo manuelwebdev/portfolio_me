@@ -14,7 +14,7 @@
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
-            <i class="fas fa-user fa-2x"></i>
+            <i class="fas fa-user fa-2x black--text"></i>
           </v-avatar>
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
@@ -26,7 +26,7 @@
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
-            <i class="fas fa-gamepad fa-2x"></i>
+            <i class="fas fa-gamepad fa-2x black--text"></i>
           </v-avatar>
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
