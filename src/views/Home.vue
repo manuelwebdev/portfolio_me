@@ -8,9 +8,10 @@
         </h1>
       </v-layout>
     </v-container>
-    <!-- --------------------- -->
+    <!-- ---------TIMELINE------------ -->
     <v-container>
       <v-timeline>
+        <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
@@ -22,7 +23,19 @@
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
           </v-card>
         </v-timeline-item>
-        <!-- --------------------- -->
+        <!-- ---------TIMELINE ITEM------------ -->
+        <v-timeline-item color="white" large>
+          <v-avatar slot="icon">
+            <!-- <img src="http://i.pravatar.cc/64"> -->
+            <i class="fas fa-gamepad fa-2x black--text"></i>
+          </v-avatar>
+          <!-- <span slot="opposite">Tus eu perfecto</span> -->
+          <v-card class="elevation-2">
+            <v-card-title class="headline">My Hobbies</v-card-title>
+            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+          </v-card>
+        </v-timeline-item>
+        <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
