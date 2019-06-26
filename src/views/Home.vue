@@ -9,7 +9,8 @@
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container>
+    <v-container fluid>
+      <h2 class="display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
@@ -39,11 +40,11 @@
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
-            <i class="fas fa-gamepad fa-2x black--text"></i>
+            <i class="fas fa-code fa-2x black--text"></i>
           </v-avatar>
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
-            <v-card-title class="headline">My Hobbies</v-card-title>
+            <v-card-title class="headline">Why Web Development?</v-card-title>
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
           </v-card>
         </v-timeline-item>
@@ -51,7 +52,7 @@
     </v-container>
     <!-- --------------------- -->
     <v-container fluid>
-      <h2 class="display-3 black--text">WHAT DO I KNOW</h2>
+      <h2 class="display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
           <v-avatar size="130" color="grey lighten-4">
@@ -76,7 +77,7 @@
     </v-container>
     <!-- --------------------- -->
     <v-container fluid class="accent">
-      <h2 class="display-3 black--text">MY WORK</h2>
+      <h2 class="display-3 black--text">My Work</h2>
       <v-layout>
         <v-flex xs12 sm6 md4 lg3 ma-2>
           <v-card>
@@ -201,9 +202,9 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <v-container fluid>
+    <!-- <v-container fluid>
       <h2 class="display-3 black--text">CONTACT</h2>
-    </v-container>
+    </v-container> -->
   </div>
 </template>
 
