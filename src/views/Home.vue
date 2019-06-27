@@ -204,18 +204,37 @@
     </v-container>
     <!-- <v-container fluid>
       <h2 class="display-3 black--text">CONTACT</h2>
-    </v-container> -->
+    </v-container>-->
+    <div ref="box" class="box"></div>
   </div>
 </template>
 
 <script>
+import { TweenMax, Power2, TimelineLite } from "gsap/TweenMax";
+
 export default {
-  components: {}
+  components: {},
+  mounted() {
+    const { box } = this.$refs;
+    const timeline = new TimelineLite();
+
+    timeline.to(box, 1, { x: 200, rotation: 90 });
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .myBanner {
   height: 95vh;
+}
+.logo {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+.box {
+  height: 60px;
+  width: 60px;
+  background: red;
 }
 </style>

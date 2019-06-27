@@ -3,10 +3,15 @@
     <!-- <v-toolbar-title class="headline text-uppercase">
       <span class="font-weight-light white--text">Manuel Espinoza</span>
     </v-toolbar-title>-->
-    <v-avatar slot="icon">
-      <!-- <img src="http://i.pravatar.cc/64"> -->
-      <i class="fas fa-code fa-2x black--text"></i>
-    </v-avatar>
+    <v-toolbar-title class="my-toolbar">
+      <v-avatar size="60" class="ml-4">
+        <div ref="box" class="box">
+          <img src="../assets/My_Logo.png" class="box">
+        </div>
+        <!-- <img src="../assets/My_Logo.png" class="box"> -->
+        <!-- <i class="fas fa-user fa-2x black--text"></i> -->
+      </v-avatar>
+    </v-toolbar-title>
     <v-spacer></v-spacer>
 
     <router-link tag="v-btn" to="/">
@@ -30,8 +35,25 @@
 </template>
 
 <script>
-export default {};
+import { TimelineLite } from "gsap";
+
+export default {
+  mounted() {
+    const { box } = this.$refs;
+    const timeline = new TimelineLite();
+
+    timeline.to(box, 3, { x: 100, rotation: 360 });
+  }
+};
 </script>
 
 <style lang="scss" scoped>
+.box {
+  height: 60px;
+  width: 60px;
+  // background: red;
+}
+.my-toolbar {
+  width: 500px;
+}
 </style>
