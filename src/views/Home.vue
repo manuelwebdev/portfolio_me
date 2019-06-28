@@ -13,7 +13,7 @@
       <h2 class="display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
-        <v-timeline-item color="white" large>
+        <v-timeline-item color="white" large class="test">
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
             <i class="fas fa-user fa-2x black--text"></i>
@@ -55,7 +55,7 @@
       <h2 class="display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
-          <v-avatar size="130" color="grey lighten-4">
+          <v-avatar size="130" color="grey lighten-4" class="test">
             <img src="../assets/profile.jpg" alt="avatar">
           </v-avatar>
           <h5 class="headline black--text">test</h5>
@@ -219,6 +219,7 @@ export default {
     const timeline = new TimelineLite();
 
     timeline.to(box, 1, { x: 200, rotation: 90 });
+    
   }
 };
 </script>

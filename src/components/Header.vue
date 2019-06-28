@@ -4,9 +4,9 @@
       <span class="font-weight-light white--text">Manuel Espinoza</span>
     </v-toolbar-title>-->
     <v-toolbar-title class="my-toolbar">
-      <v-avatar size="60" class="ml-4">
+      <v-avatar size="60" class="">
         <div ref="box" class="box">
-          <img src="../assets/My_Logo.png" class="box">
+          <img src="../assets/My_Logo.png">
         </div>
         <!-- <img src="../assets/My_Logo.png" class="box"> -->
         <!-- <i class="fas fa-user fa-2x black--text"></i> -->
@@ -15,7 +15,7 @@
     <v-spacer></v-spacer>
 
     <router-link tag="v-btn" to="/">
-      <v-btn flat class="mx-0 white--text">
+      <v-btn ref="home" flat class="mx-0 white--text">
         <span>Home</span>
       </v-btn>
     </router-link>
@@ -42,7 +42,13 @@ export default {
     const { box } = this.$refs;
     const timeline = new TimelineLite();
 
-    timeline.to(box, 3, { x: 100, rotation: 360 });
+    timeline.from(box, 2, { 
+      y: -75, 
+      rotation: -360
+      });
+
+    
+
   }
 };
 </script>
@@ -51,7 +57,7 @@ export default {
 .box {
   height: 60px;
   width: 60px;
-  // background: red;
+
 }
 .my-toolbar {
   width: 500px;
