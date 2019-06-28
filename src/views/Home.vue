@@ -63,14 +63,14 @@
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
           <h3 class="display-2 black--text">SKILLS</h3>
-          <v-card dark color="accent">
+          <v-card dark color="white">
             <!-- <v-card-text class="px-0">6</v-card-text> -->
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
-            <v-progress-linear color="white" height="20" value="75"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="75"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="25"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="35"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="85"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="35"></v-progress-linear>
+            <v-progress-linear background-color="accent" color="secondary" height="20" value="45"></v-progress-linear>
           </v-card>
         </v-flex>
       </v-layout>
@@ -219,7 +219,6 @@ export default {
     const timeline = new TimelineLite();
 
     timeline.to(box, 1, { x: 200, rotation: 90 });
-    
   }
 };
 </script>
@@ -237,5 +236,14 @@ export default {
   height: 60px;
   width: 60px;
   background: red;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
 }
 </style>
