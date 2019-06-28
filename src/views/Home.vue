@@ -63,15 +63,46 @@
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
           <h3 class="display-2 black--text">SKILLS</h3>
-          <v-card dark color="white">
-            <!-- <v-card-text class="px-0">6</v-card-text> -->
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="75"></v-progress-linear>
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="25"></v-progress-linear>
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="35"></v-progress-linear>
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="85"></v-progress-linear>
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="35"></v-progress-linear>
-            <v-progress-linear background-color="accent" color="secondary" height="20" value="45"></v-progress-linear>
-          </v-card>
+
+          <div class="skills">
+            <div class="title">TITLE</div>
+            <div class="bar">
+              <div class="left"></div>
+              <div class="right">70%</div>
+            </div>
+          </div>
+
+          <div class="skills2">
+            <div class="title">TITLE</div>
+            <div class="bar">
+              <div class="left"></div>
+              <div class="right">70%</div>
+            </div>
+          </div>
+
+          <div class="skills3">
+            <div class="title">TITLE</div>
+            <div class="bar">
+              <div class="left"></div>
+              <div class="right">70%</div>
+            </div>
+          </div>
+
+          <div class="skills4">
+            <div class="title">TITLE</div>
+            <div class="bar">
+              <div class="left"></div>
+              <div class="right">70%</div>
+            </div>
+          </div>
+
+          <div class="skills5">
+            <div class="title">TITLE</div>
+            <div class="bar">
+              <div class="left"></div>
+              <div class="right">70%</div>
+            </div>
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
@@ -239,11 +270,39 @@ export default {
 }
 .skills {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  p {
-    margin-bottom: 0;
-    padding: 0 1rem;
+  height: 50px;
+  border: 1px solid gray;
+  width: 100%;
+
+  .title {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+  }
+  .bar {
+    display: flex;
+    width: 85%;
+    height: 100%;
+    // background-color: green;
+
+    .left {
+      width: 70%;
+      height: 100%;
+      background-color: blue;
+    }
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 30%;
+      height: 100%;
+      background: gray;
+      padding-right: 2rem;
+      font-size: 24px;
+    }
   }
 }
 </style>
