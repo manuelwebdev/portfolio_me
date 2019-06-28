@@ -65,10 +65,10 @@
           <h3 class="display-2 black--text">SKILLS</h3>
 
           <div class="skills">
-            <div class="title">TITLE</div>
+            <div class="title">HTML</div>
             <div class="bar">
               <div class="left"></div>
-              <div class="right">70%</div>
+              <div class="right">90%</div>
             </div>
           </div>
 
@@ -268,6 +268,15 @@ export default {
   width: 60px;
   background: red;
 }
+
+
+.skills, .skils2, .skills3, .skills4, .skills5, .skills6 {
+  display: flex;
+  height: 35px;
+  width: 100%;
+  border: 1px solid gray;
+}
+
 .skills {
   display: flex;
   height: 50px;
@@ -289,7 +298,7 @@ export default {
     // background-color: green;
 
     .left {
-      width: 70%;
+      width: 90%;
       height: 100%;
       background-color: blue;
     }
@@ -297,7 +306,7 @@ export default {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      width: 30%;
+      width: 10%;
       height: 100%;
       background: gray;
       padding-right: 2rem;
