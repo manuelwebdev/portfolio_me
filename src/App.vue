@@ -31,6 +31,12 @@ export default {
 </script>
 
 <style lang="scss">
-
+.my-width {
+  max-width: 1200px;
+}
+.text-align {
+  text-align: center;
+  padding-bottom: .5rem;
+}
 </style>
 
