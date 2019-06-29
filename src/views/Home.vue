@@ -236,7 +236,8 @@
     <!-- <v-container fluid>
       <h2 class="display-3 black--text">CONTACT</h2>
     </v-container>-->
-    <div ref="box" class="box"></div>
+    <!-- <div ref="box" class="box"></div> -->
+    <div class="test" color="primary"></div>
   </div>
 </template>
 
@@ -269,49 +270,125 @@ export default {
   background: red;
 }
 
-
-.skills, .skils2, .skills3, .skills4, .skills5, .skills6 {
+.skills,
+.skills2,
+.skills3,
+.skills4,
+.skills5 {
   display: flex;
   height: 35px;
   width: 100%;
   border: 1px solid gray;
-}
-
-.skills {
-  display: flex;
-  height: 50px;
-  border: 1px solid gray;
-  width: 100%;
+  // background-color: #592529;
 
   .title {
     display: flex;
     width: 15%;
     height: 100%;
-    background-color: red;
+    background-color: lighten(#592529, 15%);
     justify-content: center;
     align-items: center;
+    border-radius: 0 8px 8px 0;
   }
   .bar {
     display: flex;
     width: 85%;
     height: 100%;
-    // background-color: green;
-
+    background-color: #a1a6a5;
     .left {
-      width: 90%;
+      background-color: #592529;
       height: 100%;
-      background-color: blue;
     }
     .right {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      width: 10%;
       height: 100%;
-      background: gray;
+      background-color: #a1a6a5;
       padding-right: 2rem;
       font-size: 24px;
     }
   }
 }
+
+.skills {
+  .bar {
+    .left {
+      width: 90%;
+    }
+    .right {
+      width: 10%;
+    }
+  }
+}
+.skills2 {
+  .bar {
+    .left {
+      width: 90%;
+    }
+    .right {
+      width: 10%;
+    }
+  }
+}
+.skills3 {
+  .bar {
+    .left {
+      width: 90%;
+    }
+    .right {
+      width: 10%;
+    }
+  }
+}
+.skills4 {
+  .bar {
+    .left {
+      width: 90%;
+    }
+    .right {
+      width: 10%;
+    }
+  }
+}
+.skills5 {
+  .bar {
+    .left {
+      width: 90%;
+    }
+    .right {
+      width: 10%;
+    }
+  }
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+
+// .skills {
+
+//   .bar {
+//     display: flex;
+//     width: 85%;
+//     height: 100%;
+//     // background-color: green;
+
+//     .left {
+//       width: 90%;
+//       height: 100%;
+//       background-color: blue;
+//     }
+//     .right {
+//       display: flex;
+//       justify-content: flex-end;
+//       align-items: center;
+//       width: 10%;
+//       height: 100%;
+//       background: gray;
+//       padding-right: 2rem;
+//       font-size: 24px;
+//     }
+//   }
+// }
 </style>
