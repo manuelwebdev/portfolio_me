@@ -4,12 +4,12 @@
       <v-layout align-center justify-start>
         <h1 class="display-4 font-weight-thin ml-3">
           Manuel
-          <br>Espinoza
+          <br />Espinoza
         </h1>
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container fluid>
+    <v-container class="my-width mx-auto">
       <h2 class="display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -48,13 +48,13 @@
         </v-timeline-item>
       </v-timeline>
     </v-container>
-    <!-- --------------------- -->
-    <v-container fluid>
+    <!-- ---------SKILLS------------ -->
+    <v-container class="my-width">
       <h2 class="display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
-          <v-avatar size="130" color="grey lighten-4" >
-            <img src="../assets/profile.jpg" alt="avatar">
+          <v-avatar size="130" color="grey lighten-4">
+            <img src="../assets/profile.jpg" alt="avatar" />
           </v-avatar>
           <h5 class="headline black--text">test</h5>
         </v-layout>
@@ -62,49 +62,50 @@
         <v-flex xs6 class="mx-2">
           <h3 class="display-2 black--text">SKILLS</h3>
 
-          <div class="skills">
-            <div class="title">HTML</div>
-            <div class="bar">
+          <div class="secondary skills">
+            <div class="secondary lighten-4 title">HTML</div>
+            <div class="secondary bar">
               <div class="left"></div>
-              <div class="right">90%</div>
+              <div class="secondary lighten-5 right">90%</div>
             </div>
           </div>
 
-          <div class="skills2">
-            <div class="title">TITLE</div>
-            <div class="bar">
+          <div class="secondary skills2">
+            <div class="secondary lighten-4 title">HTML</div>
+            <div class="secondary bar">
               <div class="left"></div>
-              <div class="right">70%</div>
+              <div class="secondary lighten-5 right">90%</div>
             </div>
           </div>
 
-          <div class="skills3">
-            <div class="title">TITLE</div>
-            <div class="bar">
+          <div class="secondary skills3">
+            <div class="secondary lighten-4 title">HTML</div>
+            <div class="secondary bar">
               <div class="left"></div>
-              <div class="right">70%</div>
+              <div class="secondary lighten-5 right">90%</div>
             </div>
           </div>
 
-          <div class="skills4">
-            <div class="title">TITLE</div>
-            <div class="bar">
+          <div class="secondary skills4">
+            <div class="secondary lighten-4 title">HTML</div>
+            <div class="secondary bar">
               <div class="left"></div>
-              <div class="right">70%</div>
+              <div class="secondary lighten-5 right">90%</div>
             </div>
           </div>
 
-          <div class="skills5">
-            <div class="title">TITLE</div>
-            <div class="bar">
+          <div class="secondary skills5">
+            <div class="secondary lighten-4 title">HTML</div>
+            <div class="secondary bar">
               <div class="left"></div>
-              <div class="right">70%</div>
+              <div class="secondary lighten-5 right">90%</div>
             </div>
           </div>
+
         </v-flex>
       </v-layout>
     </v-container>
-    <!-- --------------------- -->
+    <!-- ---------MY WORK------------ -->
     <v-container fluid class="accent">
       <h2 class="display-3 black--text">My Work</h2>
       <v-layout>
@@ -126,9 +127,9 @@
             <v-card-title>
               <div>
                 <span class="grey--text">Number 10</span>
-                <br>
+                <br />
                 <span>Whitehaven Beach</span>
-                <br>
+                <br />
                 <span>Whitsunday Island, Whitsunday Islands</span>
               </div>
             </v-card-title>
@@ -157,9 +158,9 @@
             <v-card-title>
               <div>
                 <span class="grey--text">Number 10</span>
-                <br>
+                <br />
                 <span>Whitehaven Beach</span>
-                <br>
+                <br />
                 <span>Whitsunday Island, Whitsunday Islands</span>
               </div>
             </v-card-title>
@@ -187,9 +188,9 @@
             <v-card-title>
               <div>
                 <span class="grey--text">Number 10</span>
-                <br>
+                <br />
                 <span>Whitehaven Beach</span>
-                <br>
+                <br />
                 <span>Whitsunday Island, Whitsunday Islands</span>
               </div>
             </v-card-title>
@@ -217,9 +218,9 @@
             <v-card-title>
               <div>
                 <span class="grey--text">Number 10</span>
-                <br>
+                <br />
                 <span>Whitehaven Beach</span>
-                <br>
+                <br />
                 <span>Whitsunday Island, Whitsunday Islands</span>
               </div>
             </v-card-title>
@@ -231,10 +232,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <!-- <v-container fluid>
-      <h2 class="display-3 black--text">CONTACT</h2>
-    </v-container>-->
-    <!-- <div ref="box" class="box"></div> -->
   </div>
 </template>
 
@@ -253,6 +250,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.my-width {
+  max-width: 1200px;
+}
 .myBanner {
   height: 95vh;
 }
@@ -275,25 +275,26 @@ export default {
   display: flex;
   height: 35px;
   width: 100%;
-  border: 1px solid gray;
+  margin: .75rem 0;
+  // border: 1px solid gray;
   // background-color: #592529;
 
   .title {
     display: flex;
     width: 15%;
     height: 100%;
-    background-color: lighten(#592529, 15%);
+    // background-color: lighten(#592529, 15%);
     justify-content: center;
     align-items: center;
-    border-radius: 0 8px 8px 0;
+    // border-radius: 0 8px 8px 0;
   }
   .bar {
     display: flex;
     width: 85%;
     height: 100%;
-    background-color: #a1a6a5;
+    // background-color: #a1a6a5;
     .left {
-      background-color: #592529;
+      // background-color: #592529;
       height: 100%;
     }
     .right {
@@ -301,7 +302,7 @@ export default {
       justify-content: flex-end;
       align-items: center;
       height: 100%;
-      background-color: #a1a6a5;
+      // background-color: #a1a6a5;
       padding-right: 2rem;
       font-size: 24px;
     }
@@ -358,9 +359,4 @@ export default {
     }
   }
 }
-.test {
-  width: 100px;
-  height: 100px;
-}
-
 </style>
