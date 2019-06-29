@@ -13,12 +13,10 @@
       <h2 class="display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
-        <v-timeline-item color="white" large class="test">
+        <v-timeline-item color="white" large>
           <v-avatar slot="icon">
-            <!-- <img src="http://i.pravatar.cc/64"> -->
             <i class="fas fa-user fa-2x black--text"></i>
           </v-avatar>
-          <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
             <v-card-title class="headline">My Life</v-card-title>
             <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
@@ -55,7 +53,7 @@
       <h2 class="display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
-          <v-avatar size="130" color="grey lighten-4" class="test">
+          <v-avatar size="130" color="grey lighten-4" >
             <img src="../assets/profile.jpg" alt="avatar">
           </v-avatar>
           <h5 class="headline black--text">test</h5>
@@ -237,12 +235,11 @@
       <h2 class="display-3 black--text">CONTACT</h2>
     </v-container>-->
     <!-- <div ref="box" class="box"></div> -->
-    <div class="test" color="primary"></div>
   </div>
 </template>
 
 <script>
-import { TweenMax, Power2, TimelineLite } from "gsap/TweenMax";
+import { TimelineLite } from "gsap";
 
 export default {
   components: {},
@@ -366,29 +363,4 @@ export default {
   height: 100px;
 }
 
-// .skills {
-
-//   .bar {
-//     display: flex;
-//     width: 85%;
-//     height: 100%;
-//     // background-color: green;
-
-//     .left {
-//       width: 90%;
-//       height: 100%;
-//       background-color: blue;
-//     }
-//     .right {
-//       display: flex;
-//       justify-content: flex-end;
-//       align-items: center;
-//       width: 10%;
-//       height: 100%;
-//       background: gray;
-//       padding-right: 2rem;
-//       font-size: 24px;
-//     }
-//   }
-// }
 </style>
