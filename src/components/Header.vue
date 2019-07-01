@@ -59,21 +59,23 @@ export default {
     //    y: -75
     //  });
 
-    TweenLite.from(box, 2, {
+    TweenLite.from(box, 1.5, {
       y: -75,
       rotation: -360
     });
-    TweenLite.staggerFrom(home, 1.5, {
+    TweenLite.from(home, 2.2, {
       y: -75
       // scaleX: -2,
       // scaleY: -1
-    }, 0.5);
-    TweenLite.staggerFrom(about, 2, {
-      y: -75
-    }, 0.5);
-    TweenLite.staggerFrom(git, 2, {
-      y: -75
-    }, 0.5);
+    },);
+    TweenLite.from(about, 2.2, {
+      y: -75,
+      delay: .1
+    });
+    TweenLite.from(git, 2.2, {
+      y: -75,
+      delay: .2
+    });
   }
 };
 </script>
