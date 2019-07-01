@@ -47,35 +47,43 @@ export default {
     const { home } = this.$refs;
     const { about } = this.$refs;
     const { git } = this.$refs;
+    const { me } = this.$refs;
     const timeline = new TimelineLite();
     //  const tween = new TweenLite();
 
-    //  timeline.from(box, 2, {
-    //    y: -75,
-    //    rotation: -360
-    //  });
+     timeline.from(box, 1.25, {
+       y: -75,
+       rotation: -360
+     })
+     .from(home, 0.3, {
+       y: -75
+     })
+     .from(about, 0.3, {
+       y: -75
+     })
+     .from(git, 0.3, {
+       y: -75
+     })
 
-    //  timeline.from(home, 2, {
-    //    y: -75
-    //  });
+     timeline.timeScale(1.5);
 
-    TweenLite.from(box, 1.5, {
-      y: -75,
-      rotation: -360
-    });
-    TweenLite.from(home, 2.2, {
-      y: -75
-      // scaleX: -2,
-      // scaleY: -1
-    },);
-    TweenLite.from(about, 2.2, {
-      y: -75,
-      delay: .1
-    });
-    TweenLite.from(git, 2.2, {
-      y: -75,
-      delay: .2
-    });
+    // TweenLite.from(box, 1.5, {
+    //   y: -75,
+    //   rotation: -360
+    // });
+    // TweenLite.from(home, 2.2, {
+    //   y: -75
+    //   // scaleX: -2,
+    //   // scaleY: -1
+    // },);
+    // TweenLite.from(about, 2.2, {
+    //   y: -75,
+    //   delay: .1
+    // });
+    // TweenLite.from(git, 2.2, {
+    //   y: -75,
+    //   delay: .2
+    // });
   }
 };
 </script>

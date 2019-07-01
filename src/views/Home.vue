@@ -2,10 +2,12 @@
   <div class="home white--text">
     <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
-        <h1 class="display-4 font-weight-thin ml-3">
-          Manuel
-          <br />Espinoza
-        </h1>
+        <div ref="me">
+          <h1 class="display-4 font-weight-thin ml-3">
+            Manuel
+            <br />Espinoza
+          </h1>
+        </div>
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
@@ -69,7 +71,6 @@
               <div class="accent right">90%</div>
             </div>
           </div>
-
         </v-flex>
       </v-layout>
     </v-container>
@@ -210,9 +211,13 @@ export default {
   components: {},
   mounted() {
     const { box } = this.$refs;
+    const { me } = this.$refs;
     const timeline = new TimelineLite();
 
-    timeline.to(box, 1, { x: 200, rotation: 90 });
+    // timeline.to(box, 1, { x: 200, rotation: 90 });
+    timeline.from(me, 0.75, {
+      x: 600
+    });
   }
 };
 </script>
@@ -223,7 +228,7 @@ export default {
 }
 .text-align {
   text-align: center;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 .myBanner {
   height: 95vh;
@@ -247,10 +252,9 @@ export default {
   display: flex;
   height: 35px;
   width: 100%;
-  margin: .75rem 0;
+  margin: 0.75rem 0;
   // border: 1px solid gray;
   // background-color: #592529;
-  
 
   .title {
     display: flex;
