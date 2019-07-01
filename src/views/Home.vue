@@ -74,7 +74,7 @@
       </v-layout>
     </v-container>
     <!-- ---------MY WORK------------ -->
-    <v-container fluid class="secondary">
+    <v-container fluid class="accent">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
         <v-flex xs12 sm6 md4 lg3 ma-2>
