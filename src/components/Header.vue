@@ -9,47 +9,71 @@
         </v-avatar>
       </v-toolbar-title>
 
-
-
-
       <v-spacer></v-spacer>
 
-
-
-
       <router-link tag="v-btn" to="/">
-        <v-btn ref="home" flat class="mx-0 white--text">
-          <span>Home</span>
-        </v-btn>
+        <div ref="home">
+          <v-btn ref="home" flat class="mx-0 white--text">
+            <span>Home</span>
+          </v-btn>
+        </div>
       </router-link>
 
       <router-link tag="v-btn" to="/about">
-        <v-btn flat class="mx-0 white--text">
-          <span>About</span>
-        </v-btn>
+        <div ref="about">
+          <v-btn flat class="mx-0 white--text">
+            <span>About</span>
+          </v-btn>
+        </div>
       </router-link>
 
-      <v-btn flat href="https://github.com/manoy96" target="_blank">
-        <span class="mr-1 white--text">
-          <i class="fab fa-github fa-lg"></i> GitHub
-        </span>
-      </v-btn>
+      <div ref="git">
+        <v-btn flat href="https://github.com/manoy96" target="_blank">
+          <span class="mr-1 white--text">
+            <i class="fab fa-github fa-lg"></i> GitHub
+          </span>
+        </v-btn>
+      </div>
     </v-layout>
   </v-toolbar>
 </template>
 
 <script>
-import { TimelineLite } from "gsap";
+import { TweenLite, TimelineLite } from "gsap";
 
 export default {
   mounted() {
     const { box } = this.$refs;
+    const { home } = this.$refs;
+    const { about } = this.$refs;
+    const { git } = this.$refs;
     const timeline = new TimelineLite();
+    //  const tween = new TweenLite();
 
-    timeline.from(box, 2, {
+    //  timeline.from(box, 2, {
+    //    y: -75,
+    //    rotation: -360
+    //  });
+
+    //  timeline.from(home, 2, {
+    //    y: -75
+    //  });
+
+    TweenLite.from(box, 2, {
       y: -75,
       rotation: -360
     });
+    TweenLite.staggerFrom(home, 1.5, {
+      y: -75
+      // scaleX: -2,
+      // scaleY: -1
+    }, 0.5);
+    TweenLite.staggerFrom(about, 2, {
+      y: -75
+    }, 0.5);
+    TweenLite.staggerFrom(git, 2, {
+      y: -75
+    }, 0.5);
   }
 };
 </script>
