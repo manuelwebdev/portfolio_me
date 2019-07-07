@@ -7,7 +7,6 @@
             Manuel
             <br />Espinoza
           </h1>
-          
         </div>
       </v-layout>
     </v-container>
@@ -75,7 +74,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    
+
     <!-- ---------MY WORK------------ -->
     <v-container fluid class="accent">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
