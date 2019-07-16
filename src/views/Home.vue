@@ -207,6 +207,7 @@
 
 <script>
 import { TimelineLite } from "gsap";
+import ScrollMagic from "scrollmagic";
 
 export default {
   components: {},
