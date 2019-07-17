@@ -11,9 +11,9 @@
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container class="my-width mx-auto">
+    <v-container class="my-width mx-auto" id="test">
       <h2 class="text-align display-3 black--text">About Me</h2>
-      <v-timeline id="test">
+      <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
@@ -215,6 +215,10 @@ export default {
     const { box } = this.$refs;
     const { me } = this.$refs;
     const timeline = new TimelineLite();
+    timeline.from(me, 0.75, {
+      x: 600
+    });
+
     const controller = new ScrollMagic.Controller();
     const scene = new ScrollMagic.Scene({
       triggerElement: "#test"
@@ -223,9 +227,6 @@ export default {
       .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
-    timeline.from(me, 0.75, {
-      x: 600
-    });
   }
 };
 </script>
