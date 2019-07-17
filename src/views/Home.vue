@@ -11,7 +11,7 @@
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container class="my-width mx-auto">
+    <v-container class="my-width mx-auto" id="test01">
       <h2 class="text-align display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -216,7 +216,9 @@ export default {
     const { me } = this.$refs;
     const timeline = new TimelineLite();
     const controller = new ScrollMagic.Controller();
-    const scene = new ScrollMagic.Scene({})
+    const scene = new ScrollMagic.Scene({
+      triggerElement: "#test01"
+    })
       .setClassToggle("test01", "fade-in") //add class to test01
       .addTo(controller);
 
