@@ -215,6 +215,10 @@ export default {
     const { box } = this.$refs;
     const { me } = this.$refs;
     const timeline = new TimelineLite();
+    const controller = new ScrollMagic.Controller();
+    const scene = new ScrollMagic.Scene({})
+      .setClassToggle("test01", "fade-in") //add class to test01
+      .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
     timeline.from(me, 0.75, {
