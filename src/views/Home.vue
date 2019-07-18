@@ -51,7 +51,7 @@
       </v-timeline>
     </v-container>
     <!-- ---------SKILLS------------ -->
-    <v-container class="my-width">
+    <v-container class="my-width" id="test1">
       <h2 class="text-align display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
@@ -74,9 +74,8 @@
         </v-flex>
       </v-layout>
     </v-container>
-
     <!-- ---------MY WORK------------ -->
-    <v-container fluid class="accent">
+    <v-container fluid class="accent" id="test2">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
         <v-flex xs12 sm6 md4 lg3 ma-2>
@@ -206,26 +205,38 @@
 </template>
 
 <script>
-import { TimelineLite } from "gsap";
 import ScrollMagic from "scrollmagic";
+import { TimelineLite } from "gsap";
 
 export default {
   components: {},
   mounted() {
+    // GREENSOCK
     const { box } = this.$refs;
     const { me } = this.$refs;
-    const timeline = new TimelineLite();
-    timeline.from(me, 0.75, {
+    const tl = new TimelineLite();
+
+    tl.from(me, 0.75, {
       x: 600
     });
 
-    const controller = new ScrollMagic.Controller();
-    const scene = new ScrollMagic.Scene({
-      triggerElement: "#test"
-    })
-      .setClassToggle("#test", "fade-in") //add class to test01
-      .addTo(controller);
+    // SCROLL MAGIC
+    var controller = new ScrollMagic.Controller();
 
+    var test = tl
+      .from('#test', 2, {
+        x: 1000,
+        // immediateRender: false,
+      });
+
+    var scene = new ScrollMagic.Scene({
+      triggerElement: '#test',
+      offset: -200
+    })
+      .setTween(test)
+      .addTo(controller)
+      .addIndicators();
+      
     // timeline.to(box, 1, { x: 200, rotation: 90 });
   }
 };
