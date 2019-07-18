@@ -206,7 +206,7 @@
 
 <script>
 import ScrollMagic from "scrollmagic";
-import { TimelineLite } from "gsap";
+import { TimelineLite, TweenLite } from "gsap";
 
 export default {
   components: {},
@@ -215,28 +215,34 @@ export default {
     const { box } = this.$refs;
     const { me } = this.$refs;
     const tl = new TimelineLite();
+    const tween = new 
 
     tl.from(me, 0.75, {
       x: 600
     });
 
     // SCROLL MAGIC
-    var controller = new ScrollMagic.Controller();
+    const controller = new ScrollMagic.Controller();
 
     var test = tl
-      .from('#test', 2, {
+      .from("#test", 2, {
         x: 1000,
         // immediateRender: false,
       });
 
     var scene = new ScrollMagic.Scene({
-      triggerElement: '#test',
+      triggerElement: "#test",
       offset: -200
     })
       .setTween(test)
       .addTo(controller)
-      .addIndicators();
-      
+      .addIndicators({
+      colorTrigger: "black",
+      colorStart: "black",
+      colorEnd: "black",
+      indent: 40
+    });
+
     // timeline.to(box, 1, { x: 200, rotation: 90 });
   }
 };
