@@ -227,7 +227,6 @@ export default {
     var test = tl
       .from("#test", 2, {
         x: 1000,
-        // immediateRender: false,
       });
 
     var scene = new ScrollMagic.Scene({
