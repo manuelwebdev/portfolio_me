@@ -226,8 +226,8 @@ export default {
 
     var test = tl
       .from("#test", 2, {
-        x: 500
-        
+        x: 750
+
       });
 
     var scene = new ScrollMagic.Scene({
