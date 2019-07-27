@@ -205,8 +205,9 @@
 </template>
 
 <script>
-import ScrollMagic from "scrollmagic";
-import { TimelineLite, TweenLite } from "gsap";
+import { TweenLite, TimelineLite } from 'gsap'
+import ScrollMagic from 'scrollmagic'
+import gsap from 'scrollmagic'
 
 export default {
   components: {},
