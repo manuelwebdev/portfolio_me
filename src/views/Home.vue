@@ -1,5 +1,5 @@
 <template>
-  <div class="home white--text">
+  <div class="home white--text" id="myContainer">
     <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
         <div ref="me">
@@ -11,7 +11,7 @@
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container class="my-width mx-auto" id="my-sticky-element">
+    <v-container class="my-width mx-auto">
       <h2 class="text-align display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -51,7 +51,7 @@
       </v-timeline>
     </v-container>
     <!-- ---------SKILLS------------ -->
-    <v-container class="my-width" id="test1">
+    <v-container class="my-width">
       <h2 class="text-align display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-layout column align-center class="pt-3">
@@ -75,7 +75,7 @@
       </v-layout>
     </v-container>
     <!-- ---------MY WORK------------ -->
-    <v-container fluid class="accent" id="test2">
+    <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
         <v-flex xs12 sm6 md4 lg3 ma-2>
@@ -205,9 +205,9 @@
 </template>
 
 <script>
-import { TweenLite, TimelineLite } from "gsap";
-import ScrollMagic from "scrollmagic";
-import gsap from "scrollmagic";
+import { TweenLite, TimelineLite } from "gsap"
+import ScrollMagic from "scrollmagic"
+import gsap from "scrollmagic"
 
 export default {
   components: {},
@@ -224,18 +224,19 @@ export default {
     // const controller = new ScrollMagic.Controller();
 
     // define controller
-    var controller = new ScrollMagic.Controller();
-
-    // var test = tl.from("#test", 2, {
-    //   x: 750
-    // });
+    var controller = new ScrollMagic.Controller({
+      container: "#myContainer",
+    });
+    var test = tl.from("#test", 10, {
+      x: 750,
+      opacity: 0
+    });
 
     //define scene
     var scene = new ScrollMagic.Scene({
-        duration: 100,    // the scene should last for a scroll distance of 100px
-        offset: 50    // start this scene after scrolling for 50px
+      triggerElement: "#test"
     })
-      .setTween("#my-sticky-element")
+      .setTween(test)
       .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
