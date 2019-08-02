@@ -1,7 +1,7 @@
 <template>
   <v-footer dark height="auto">
     <v-card class="flex" flat tile>
-      <v-card-title class="secondary" >
+      <v-card-title class="secondary">
         <v-spacer></v-spacer>
         <v-btn large icon flat href="https://www.instagram.com/mespinut/" target="_blank">
             <i class="fab fa-instagram fa-2x"></i>
