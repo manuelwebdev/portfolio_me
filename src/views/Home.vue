@@ -11,7 +11,7 @@
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
-    <v-container class="my-width mx-auto" id="test">
+    <v-container class="my-width mx-auto" id="my-sticky-element">
       <h2 class="text-align display-3 black--text">About Me</h2>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -205,43 +205,38 @@
 </template>
 
 <script>
-import { TweenLite, TimelineLite } from 'gsap'
-import ScrollMagic from 'scrollmagic'
-import gsap from 'scrollmagic'
+import { TweenLite, TimelineLite } from "gsap";
+import ScrollMagic from "scrollmagic";
+import gsap from "scrollmagic";
 
 export default {
   components: {},
   mounted() {
-    // GREENSOCK
+    //------- GREENSOCK --------
     const { box } = this.$refs;
     const { me } = this.$refs;
     const tl = new TimelineLite();
-    const tween = new 
-
-    tl.from(me, 0.75, {
+    const tween = new tl.from(me, 0.75, {
       x: 600
     });
 
-    // SCROLL MAGIC
-    const controller = new ScrollMagic.Controller();
+    //-------- SCROLL MAGIC ---------
+    // const controller = new ScrollMagic.Controller();
 
-    var test = tl
-      .from("#test", 2, {
-        x: 750
-      });
+    // define controller
+    var controller = new ScrollMagic.Controller();
 
+    // var test = tl.from("#test", 2, {
+    //   x: 750
+    // });
+
+    //define scene
     var scene = new ScrollMagic.Scene({
-      triggerElement: "#test",
-      offset: -200
+        duration: 100,    // the scene should last for a scroll distance of 100px
+        offset: 50    // start this scene after scrolling for 50px
     })
-      .setTween(test)
-      .addTo(controller)
-      .addIndicators({
-      colorTrigger: "black",
-      colorStart: "black",
-      colorEnd: "black",
-      indent: 40
-    });
+      .setTween("#my-sticky-element")
+      .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
   }

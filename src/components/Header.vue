@@ -51,21 +51,22 @@ export default {
     const timeline = new TimelineLite();
     //  const tween = new TweenLite();
 
-     timeline.from(box, 1.25, {
-       y: -75,
-       rotation: -360
-     })
-     .from(home, 0.3, {
-       y: -75
-     })
-     .from(about, 0.3, {
-       y: -75
-     })
-     .from(git, 0.3, {
-       y: -75
-     })
+    timeline
+      .from(box, 1.25, {
+        y: -75,
+        rotation: -360
+      })
+      .from(home, 0.3, {
+        y: -75
+      })
+      .from(about, 0.3, {
+        y: -75
+      })
+      .from(git, 0.3, {
+        y: -75
+      });
 
-     timeline.timeScale(1.5);
+    timeline.timeScale(1.5);
 
     // TweenLite.from(box, 1.5, {
     //   y: -75,

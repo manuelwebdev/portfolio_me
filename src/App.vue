@@ -36,7 +36,7 @@ export default {
 }
 .text-align {
   text-align: center;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 </style>
 
