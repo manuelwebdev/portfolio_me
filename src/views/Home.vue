@@ -205,7 +205,7 @@
 </template>
 
 <script>
-import { TweenLite, TimelineLite } from "gsap"
+import { TweenLite, TimelineLite, } from "gsap"
 import ScrollMagic from "scrollmagic"
 import gsap from "scrollmagic"
 
