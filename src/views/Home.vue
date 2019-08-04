@@ -208,6 +208,7 @@
 import { TweenLite, TimelineLite, } from "gsap"
 import ScrollMagic from "scrollmagic"
 import gsap from "scrollmagic"
+// import "scrollmagic/scrollmagic/minified/plugins/animation.gsap"
 
 export default {
   components: {},
