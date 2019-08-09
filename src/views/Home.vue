@@ -240,7 +240,7 @@ export default {
       .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
-  }
+  }//end mounted
 };
 </script>
 
