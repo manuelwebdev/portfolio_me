@@ -21,7 +21,7 @@
           </v-avatar>
           <v-card class="elevation-2">
             <v-card-title class="headline">My Life</v-card-title>
-            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+            <v-card-text>I grew up in Chino Hills, California. I spent my early life helping my family run their Mexican restaurant close to home, and playing soccer in the local city league. I remember running up the road on my way to elementary school eager to learn new things. <br> My family move to Utah at age 6, finished elementary, got through junior high, and received my associates at the same time I finished high school. </v-card-text>
           </v-card>
         </v-timeline-item>
         <!-- ---------TIMELINE ITEM------------ -->
