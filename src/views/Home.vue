@@ -17,7 +17,7 @@
         <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
-            <i class="fas fa-user fa-2x black--text"></i>
+            <i class="fas fa-code fa-2x black--text"></i>
           </v-avatar>
           <v-card class="elevation-2">
             <v-card-title class="headline">My Start</v-card-title>
@@ -28,24 +28,12 @@
         <v-timeline-item color="white" large>
           <v-avatar slot="icon">
             <!-- <img src="http://i.pravatar.cc/64"> -->
-            <i class="fas fa-gamepad fa-2x black--text"></i>
+            <i class="fas fa-dice-d20 fa-2x black--text"></i>
           </v-avatar>
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
             <v-card-title class="headline">My Hobbies</v-card-title>
-            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
-          </v-card>
-        </v-timeline-item>
-        <!-- ---------TIMELINE ITEM------------ -->
-        <v-timeline-item color="white" large>
-          <v-avatar slot="icon">
-            <!-- <img src="http://i.pravatar.cc/64"> -->
-            <i class="fas fa-code fa-2x black--text"></i>
-          </v-avatar>
-          <!-- <span slot="opposite">Tus eu perfecto</span> -->
-          <v-card class="elevation-2">
-            <v-card-title class="headline">Why Web Development?</v-card-title>
-            <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+            <v-card-text>Apart from learning to code or working on my current projects, you might find me being a geek about other subjects. I keep myself up to date with a lot of Marvel comics through Marvel Unlimited or following up on what’s happening in the MCU (Marvel Cinematic Universe). If I’m ever feeling like playing video games I’ll usually play a few rounds of Rocket League, or practice being tactical in Battlefield. My new hobby has been dungeons & dragons. It’s opened up some new ways to interact with people through role-playing, and I’ve gotten creative with creating my own characters in the world. I’ve also taken up photography. I’m currently an amateur, but I enjoy the creative outlet of composing a shot to create something beautiful. </v-card-text>
           </v-card>
         </v-timeline-item>
       </v-timeline>
