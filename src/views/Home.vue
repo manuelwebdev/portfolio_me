@@ -20,8 +20,8 @@
             <i class="fas fa-user fa-2x black--text"></i>
           </v-avatar>
           <v-card class="elevation-2">
-            <v-card-title class="headline">My Life</v-card-title>
-            <v-card-text>I grew up in Chino Hills, California. I spent my early life helping my family run their Mexican restaurant close to home, and playing soccer in the local city league. I remember running up the road on my way to elementary school eager to learn new things. <br> My family move to Utah at age 6, finished elementary, got through junior high, and received my associates at the same time I finished high school. </v-card-text>
+            <v-card-title class="headline">My Start</v-card-title>
+            <v-card-text>My journey as a developer starts during my last year in high school. I was so set on working my way through college to become a mechanical engineer. Taking my last elective in class, I took a course on the digital media, and different perspectives of the internet age that we live in today. That was my first taste with web design, and my first exposure to actually coding a website. While a very simple taste, I would eventually find myself giving up on engineering, and turning my career towards tech and being a developer. </v-card-text>
           </v-card>
         </v-timeline-item>
         <!-- ---------TIMELINE ITEM------------ -->
