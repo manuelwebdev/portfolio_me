@@ -21,7 +21,7 @@
           </v-avatar>
           <v-card class="elevation-2">
             <v-card-title class="headline">My Start</v-card-title>
-            <v-card-text>My journey as a developer starts during my last year in high school. I was so set on working my way through college to become a mechanical engineer. Taking my last elective in class, I took a course on the digital media, and different perspectives of the internet age that we live in today. That was my first taste with web design, and my first exposure to actually coding a website. While a very simple taste, I would eventually find myself giving up on engineering, and turning my career towards tech and being a developer. </v-card-text>
+            <v-card-text>My journey as a developer starts during my last year in high school. I was so set on working my way through college to become a mechanical engineer. Taking my last elective in class, I took a course on the digital media, and different perspectives of the internet age that we live in today. That was my first taste with web design, and my first exposure to actually coding a website. While a very simple taste, I would eventually find myself giving up on engineering, and turning my career towards tech and being a developer.</v-card-text>
           </v-card>
         </v-timeline-item>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -33,7 +33,7 @@
           <!-- <span slot="opposite">Tus eu perfecto</span> -->
           <v-card class="elevation-2">
             <v-card-title class="headline">My Hobbies</v-card-title>
-            <v-card-text>Apart from learning to code or working on my current projects, you might find me being a geek about other subjects. I keep myself up to date with a lot of Marvel comics through Marvel Unlimited or following up on what’s happening in the MCU (Marvel Cinematic Universe). If I’m ever feeling like playing video games I’ll usually play a few rounds of Rocket League, or practice being tactical in Battlefield. My new hobby has been dungeons & dragons. It’s opened up some new ways to interact with people through role-playing, and I’ve gotten creative with creating my own characters in the world. I’ve also taken up photography. I’m currently an amateur, but I enjoy the creative outlet of composing a shot to create something beautiful. </v-card-text>
+            <v-card-text>Apart from learning to code or working on my current projects, you might find me being a geek about other subjects. I keep myself up to date with a lot of Marvel comics through Marvel Unlimited or following up on what’s happening in the MCU (Marvel Cinematic Universe). If I’m ever feeling like playing video games I’ll usually play a few rounds of Rocket League, or practice being tactical in Battlefield. My new hobby has been dungeons & dragons. It’s opened up some new ways to interact with people through role-playing, and I’ve gotten creative with creating my own characters in the world. I’ve also taken up photography. I’m currently an amateur, but I enjoy the creative outlet of composing a shot to create something beautiful.</v-card-text>
           </v-card>
         </v-timeline-item>
       </v-timeline>
@@ -193,9 +193,9 @@
 </template>
 
 <script>
-import { TweenLite, TimelineLite, } from "gsap"
-import ScrollMagic from "scrollmagic"
-import gsap from "scrollmagic"
+import { TweenLite, TimelineLite } from "gsap";
+import ScrollMagic from "scrollmagic";
+import gsap from "scrollmagic";
 
 export default {
   components: {},
@@ -213,7 +213,7 @@ export default {
 
     // define controller
     var controller = new ScrollMagic.Controller({
-      container: "#myContainer",
+      container: "#myContainer"
     });
     var test = tl.from("#test", 10, {
       x: 750,
@@ -228,7 +228,7 @@ export default {
       .addTo(controller);
 
     // timeline.to(box, 1, { x: 200, rotation: 90 });
-  }//end mounted
+  } //end mounted
 };
 </script>
 
