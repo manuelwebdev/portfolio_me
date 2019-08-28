@@ -22,15 +22,7 @@
         </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
-          <h3 class="display-1 black--text">SKILLS</h3>
-
-          <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent right">90%</div>
-            </div>
-          </div>
+          <h3 class="display-1 black--text">Placeholder</h3>
         </v-flex>
       </v-layout>
       <v-timeline>
