@@ -23,6 +23,8 @@
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
           <h3 class="display-1 black--text">Placeholder</h3>
+
+          
         </v-flex>
       </v-layout>
       <v-timeline>
