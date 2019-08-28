@@ -13,6 +13,26 @@
     <!-- ---------TIMELINE------------ -->
     <v-container class="my-width mx-auto">
       <h2 class="text-align display-3 black--text">About Me</h2>
+      <v-layout row>
+        <v-layout column align-center class="pt-3">
+          <v-avatar size="130" color="grey lighten-4">
+            <img src="../assets/profile.jpg" alt="avatar" />
+          </v-avatar>
+          <h5 class="headline black--text">Hi I'm Manuel</h5>
+        </v-layout>
+        <!-- --------------------- -->
+        <v-flex xs6 class="mx-2">
+          <h3 class="display-1 black--text">SKILLS</h3>
+
+          <div class="skills">
+            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent right">90%</div>
+            </div>
+          </div>
+        </v-flex>
+      </v-layout>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
         <v-timeline-item color="white" large>
