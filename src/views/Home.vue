@@ -22,8 +22,6 @@
         </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
-          <h3 class="display-1 black--text">Placeholder</h3>
-
           <div class="skills">
             <div class="primary lighten-2 title">HTML</div>
             <div class="primary bar">
@@ -327,7 +325,7 @@ export default {
       align-items: center;
       height: 100%;
       // background-color: #a1a6a5;
-      padding-right: 2rem;
+      padding-right: .75rem;
       font-size: 24px;
     }
   }
