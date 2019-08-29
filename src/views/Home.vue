@@ -18,7 +18,7 @@
           <v-avatar size="130" color="grey lighten-4">
             <img src="../assets/profile.jpg" alt="avatar" />
           </v-avatar>
-          <h5 class="headline black--text">Hi I'm Manuel</h5>
+          <h5 class="headline black--text my-4">Hi I'm Manuel</h5>
         </v-layout>
         <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
@@ -56,13 +56,6 @@
     <v-container class="my-width">
       <h2 class="text-align display-3 black--text">What Do I Know</h2>
       <v-layout row>
-        <v-layout column align-center class="pt-3">
-          <v-avatar size="130" color="grey lighten-4">
-            <img src="../assets/profile.jpg" alt="avatar" />
-          </v-avatar>
-          <h5 class="headline black--text">test</h5>
-        </v-layout>
-        <!-- --------------------- -->
         <v-flex xs6 class="mx-2">
           <h3 class="display-2 black--text">SKILLS</h3>
 
