@@ -24,7 +24,37 @@
         <v-flex xs6 class="mx-2">
           <h3 class="display-1 black--text">Placeholder</h3>
 
-          
+          <div class="skills">
+            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent right">90%</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent right">90%</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent right">90%</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent right">90%</div>
+            </div>
+          </div>
         </v-flex>
       </v-layout>
       <v-timeline>
@@ -267,7 +297,7 @@ export default {
 .skills4,
 .skills5 {
   display: flex;
-  height: 35px;
+  height: 32px;
   width: 100%;
   margin: 0.75rem 0;
   // border: 1px solid gray;
