@@ -26,7 +26,7 @@
             <div class="primary lighten-2 title">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent right headline">90%</div>
+              <div class="accent right mySkill">90%</div>
             </div>
           </div>
 
@@ -326,7 +326,8 @@ export default {
       height: 100%;
       // background-color: #a1a6a5;
       padding-right: .75rem;
-      font-size: 24px;
+      font-size: 16px;
+      font-weight: 300;
     }
   }
 }
