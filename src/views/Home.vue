@@ -26,7 +26,7 @@
             <div class="primary lighten-2 title">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent right">90%</div>
+              <div class="accent right headline">90%</div>
             </div>
           </div>
 
