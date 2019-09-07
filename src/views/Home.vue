@@ -62,7 +62,7 @@
       <h2 class="text-align display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-flex xs6 class="mx-2">
-          <h3 class="display-2 black--text">SKILLS</h3>
+          <h3 class="display-2 black--text">Skills</h3>
 
           <div class="skills">
             <div class="primary lighten-2 title">HTML</div>
