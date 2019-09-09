@@ -29,7 +29,6 @@
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
-          
         </v-flex>
       </v-layout>
       <v-timeline>
@@ -334,7 +333,7 @@ export default {
       align-items: center;
       height: 100%;
       // background-color: #a1a6a5;
-      padding-right: .75rem;
+      padding-right: 0.75rem;
       font-size: 16px;
       font-weight: 300;
     }
