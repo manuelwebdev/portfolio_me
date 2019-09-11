@@ -31,36 +31,61 @@
           </div>
 
           <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent lighten-2 black--text right">90%</div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
 
           <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent lighten-2 black--text right">90%</div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
 
           <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent lighten-2 black--text right">90%</div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
 
           <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
-              <div class="accent lighten-2 black--text right">90%</div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
+            <div class="primary bar">
+              <div class="left"></div>
+              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
+            </div>
+          </div>
+
         </v-flex>
       </v-layout>
       <v-timeline>
