@@ -326,11 +326,7 @@ export default {
   width: 50%;
 }
 
-.skills,
-.skills2,
-.skills3,
-.skills4,
-.skills5 {
+.skills {
   display: flex;
   height: 32px;
   width: 100%;
