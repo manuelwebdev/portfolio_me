@@ -85,7 +85,6 @@
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
           </div>
-
         </v-flex>
       </v-layout>
       <v-timeline>
@@ -127,8 +126,6 @@
               <div class="accent lighten-2 black--text right">90%</div>
             </div>
           </div>
-
-          
         </v-flex>
       </v-layout>
     </v-container>
