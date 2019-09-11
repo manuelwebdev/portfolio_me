@@ -332,7 +332,7 @@ export default {
   display: flex;
   height: 32px;
   width: 100%;
-  margin: 0.75rem 0;
+  margin: 1rem 0;
   // border: 1px solid gray;
   // background-color: #592529;
 
