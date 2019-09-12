@@ -24,7 +24,7 @@
         <!-- --------------DIVIDER----------------- -->
         <v-flex xs6 class="mx-2 skillsBar">
           <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 ">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
