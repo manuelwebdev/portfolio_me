@@ -19,8 +19,8 @@
       </v-card-title>
 
       <v-card-actions class="primary justify-center">
-        &copy;2018 —
-        <strong>Manuel Espinoza</strong>
+        &copy;2018 — present 
+        <strong class="ml-2">Manuel Espinoza</strong>
       </v-card-actions>
     </v-card>
   </v-footer>
