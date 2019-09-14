@@ -114,7 +114,7 @@
       </v-timeline>
     </v-container>
     <!-- ---------SKILLS------------ -->
-    <v-container class="my-width">
+    <!-- <v-container class="my-width">
       <h2 class="text-align display-3 black--text">What Do I Know</h2>
       <v-layout row>
         <v-flex xs6 class="mx-2">
@@ -129,7 +129,7 @@
           </div>
         </v-flex>
       </v-layout>
-    </v-container>
+    </v-container> -->
     <!-- ---------MY WORK------------ -->
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
