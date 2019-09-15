@@ -113,23 +113,6 @@
         </v-timeline-item>
       </v-timeline>
     </v-container>
-    <!-- ---------SKILLS------------ -->
-    <!-- <v-container class="my-width">
-      <h2 class="text-align display-3 black--text">What Do I Know</h2>
-      <v-layout row>
-        <v-flex xs6 class="mx-2">
-          <h3 class="display-2 black--text">Skills</h3>
-
-          <div class="skills">
-            <div class="primary lighten-2 title">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 black--text right">90%</div>
-            </div>
-          </div>
-        </v-flex>
-      </v-layout>
-    </v-container> -->
     <!-- ---------MY WORK------------ -->
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
