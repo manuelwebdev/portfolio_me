@@ -19,12 +19,15 @@
             <img src="../assets/profile.jpg" alt="avatar" />
           </v-avatar>
           <h5 class="headline black--text my-4">Hi I'm Manuel</h5>
-          <p class="black--text px-5 myDesc">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh.</p>
-        </v-layout><!-- end headshot section -->
+          <p
+            class="black--text px-5 myDesc"
+          >Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh.</p>
+        </v-layout>
+        <!-- end headshot section -->
         <!-- --------------DIVIDER----------------- -->
         <v-flex xs6 class="mx-2 skillsBar">
           <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 ">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
@@ -305,12 +308,14 @@ export default {
   background: red;
 }
 
-.skillsBar, .headShot {
+.skillsBar,
+.headShot {
   width: 50%;
 }
 
 .headShot {
-  .myDesc {}
+  .myDesc {
+  }
 }
 
 .skills {
