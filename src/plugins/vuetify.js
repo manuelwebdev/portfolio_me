@@ -7,12 +7,12 @@ Vue.use(Vuetify, {
   iconfont: 'fa',
 
   theme: {
-    primary: '#730710',
-    secondary: '#353F40',
-    accent: '#A1A6A5',
-    error: '#BA1B1A',
-    success: '#468966',
-    warning: '#FFB03B'
+    primary: '#730710', // dark red
+    secondary: '#353F40', // dark grey
+    accent: '#A1A6A5', // light grey
+    error: '#BA1B1A', // red
+    success: '#468966', // forest green
+    warning: '#FFB03B' // orange
   }
   // theme: {
   //   primary: '#730710',

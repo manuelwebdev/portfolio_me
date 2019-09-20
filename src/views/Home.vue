@@ -1,9 +1,6 @@
 <template>
   <div class="home white--text" id="myContainer">
     <v-container fill-height fluid class="secondary myBanner">
-      <v-img src="../assets/banner.JPG" class="myBanner">
-
-      </v-img>
       <v-layout align-center justify-start class="my-width mx-auto">
         <div ref="me">
           <h1 class="display-4 font-weight-thin ml-3">
@@ -28,71 +25,43 @@
         </v-layout>
         <!-- end headshot section -->
         <!-- --------------DIVIDER----------------- -->
-        <v-flex xs6 class="mx-2 skillsBar">
-          <div class="skills">
+        <v-layout xs6 class="mx-2 skillsBar">
+          <!-- <div class="skills">
             <div class="primary lighten-2 body-1 font-weight-medium px-3 pt-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
             </div>
+          </div>-->
+
+          <div class="skillGroup">
+            <h3 class="display-1 black--text skillHead">Development</h3>
+            <v-chip class="ma-2" color="secondary" label text-color="white">
+              <i class="fab fa-html5 fa-2x mr-4"></i>
+              HTML
+            </v-chip>
+            <v-chip class="ma-2" color="secondary" label text-color="white">
+              <i class="fab fa-css3-alt fa-2x mr-4"></i>
+              CSS
+            </v-chip>
+            <v-chip class="ma-2" color="secondary" label text-color="white">
+              <i class="fab fa-js fa-2x mr-4"></i>
+              Javascript
+            </v-chip>
+            <v-chip class="ma-2" color="secondary" label text-color="white">
+              <i class="fab fa-vuejs fa-2x mr-4"></i>
+              Vue JS
+            </v-chip>
+            <v-chip class="ma-2" color="secondary" label text-color="white">
+              <i class="fab fa-html5 fa-2x mr-4"></i>
+              HTML5
+            </v-chip>
           </div>
 
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
+          <div class="skillGroup">
+            <h3 class="display-1 black--text skillHead">Design</h3>
           </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-
-          <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 py-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>
-        </v-flex>
+        </v-layout>
       </v-layout>
       <v-timeline>
         <!-- ---------TIMELINE ITEM------------ -->
@@ -321,93 +290,9 @@ export default {
   }
 }
 
-.skills {
-  display: flex;
-  height: 32px;
-  width: 100%;
-  margin: 1rem 0;
-  // border: 1px solid gray;
-  // background-color: #592529;
-
-  .title {
-    display: flex;
-    width: 15%;
-    height: 100%;
-    // background-color: lighten(#592529, 15%);
-    justify-content: center;
-    align-items: center;
-    // border-radius: 0 8px 8px 0;
-  }
-  .bar {
-    display: flex;
-    width: 85%;
-    height: 100%;
-    // background-color: #a1a6a5;
-    .left {
-      // background-color: #592529;
-      height: 100%;
+.skillsBar {
+    .skillGroup {
+        width: 50%;
     }
-    .right {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      height: 100%;
-      // background-color: #a1a6a5;
-      padding-right: 0.75rem;
-      font-size: 16px;
-      font-weight: 300;
-    }
-  }
-}
-
-.skills {
-  .bar {
-    .left {
-      width: 90%;
-    }
-    .right {
-      width: 10%;
-    }
-  }
-}
-.skills2 {
-  .bar {
-    .left {
-      width: 90%;
-    }
-    .right {
-      width: 10%;
-    }
-  }
-}
-.skills3 {
-  .bar {
-    .left {
-      width: 90%;
-    }
-    .right {
-      width: 10%;
-    }
-  }
-}
-.skills4 {
-  .bar {
-    .left {
-      width: 90%;
-    }
-    .right {
-      width: 10%;
-    }
-  }
-}
-.skills5 {
-  .bar {
-    .left {
-      width: 90%;
-    }
-    .right {
-      width: 10%;
-    }
-  }
 }
 </style>
