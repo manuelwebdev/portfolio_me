@@ -2,12 +2,14 @@
   <div class="home white--text" id="myContainer">
     <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
-        <div ref="me">
+        <v-img
+          src='../assets/banner.JPG'
           <h1 class="display-4 font-weight-thin ml-3">
             Manuel
             <br />Espinoza
           </h1>
-        </div>
+        </v-img>
+        <div ref="me"></div>
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
@@ -27,7 +29,7 @@
         <!-- --------------DIVIDER----------------- -->
         <v-flex xs6 class="mx-2 skillsBar">
           <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3">HTML</div>
+            <div class="primary lighten-2 body-1 font-weight-medium px-3 pt-1">HTML</div>
             <div class="primary bar">
               <div class="left"></div>
               <div class="accent lighten-2 right black--text font-weight-light">90%</div>
