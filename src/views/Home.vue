@@ -1,15 +1,16 @@
 <template>
   <div class="home white--text" id="myContainer">
     <v-container fill-height fluid class="secondary myBanner">
+      <v-img src="../assets/banner.JPG" class="myBanner">
+
+      </v-img>
       <v-layout align-center justify-start class="my-width mx-auto">
-        <v-img
-          src='../assets/banner.JPG'
+        <div ref="me">
           <h1 class="display-4 font-weight-thin ml-3">
             Manuel
             <br />Espinoza
           </h1>
-        </v-img>
-        <div ref="me"></div>
+        </div>
       </v-layout>
     </v-container>
     <!-- ---------TIMELINE------------ -->
