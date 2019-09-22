@@ -36,23 +36,23 @@
 
           <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Development</h3>
-            <v-chip class="ma-2" color="secondary" label text-color="white">
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-html5 fa-2x mr-4"></i>
               HTML
             </v-chip>
-            <v-chip class="ma-2" color="secondary" label text-color="white">
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-css3-alt fa-2x mr-4"></i>
               CSS
             </v-chip>
-            <v-chip class="ma-2" color="secondary" label text-color="white">
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-js fa-2x mr-4"></i>
               Javascript
             </v-chip>
-            <v-chip class="ma-2" color="secondary" label text-color="white">
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-vuejs fa-2x mr-4"></i>
               Vue JS
             </v-chip>
-            <v-chip class="ma-2" color="secondary" label text-color="white">
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-html5 fa-2x mr-4"></i>
               HTML5
             </v-chip>
@@ -285,14 +285,17 @@ export default {
   width: 50%;
 }
 
-// .headShot {
-//   .myDesc {
-//   }
-// }
+.headShot {
+  .myDesc {
+  }
+}
 
 .skillsBar {
     .skillGroup {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+
     }
 }
 </style>
