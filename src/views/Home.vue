@@ -285,10 +285,10 @@ export default {
   width: 50%;
 }
 
-.headShot {
-  .myDesc {
-  }
-}
+// .headShot {
+//   .myDesc {
+//   }
+// }
 
 .skillsBar {
     .skillGroup {
