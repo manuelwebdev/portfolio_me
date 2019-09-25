@@ -291,11 +291,11 @@ export default {
 }
 
 .skillsBar {
-    .skillGroup {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-
-    }
+  .skillGroup {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
 }
+
 </style>
