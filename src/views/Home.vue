@@ -61,12 +61,13 @@
 
           <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Design</h3>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              Adobe Illustrator
-            </v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              Adobe Xd
-            </v-chip>
+            <v-chip
+              class="ma-2 skillItem"
+              color="secondary"
+              label
+              text-color="white"
+            >Adobe Illustrator</v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">Adobe Xd</v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-sketch fa-2x mr-4"></i>
               Sketch
