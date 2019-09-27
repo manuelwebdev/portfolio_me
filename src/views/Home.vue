@@ -35,7 +35,7 @@
             </div>
           </div>-->
 
-          <div class="skillGroup">
+          <!-- <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Development</h3>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-html5 fa-2x mr-4"></i>
@@ -57,6 +57,37 @@
               <i class="fab fa-git-alt fa-2x mr-4"></i>
               <p class="skillText">Git</p>
             </v-chip>
+          </div>-->
+          <div class="skillGroup">
+            <h3 class="display-1 black--text skillHead">Coding</h3>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-html5 fa-2x mr-4"></i>
+              HTML
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-css3 fa-2x mr-4"></i>
+              CSS
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-sass fa-2x mr-4"></i>
+              SCSS/SASS
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-vuejs fa-2x mr-4"></i>
+              Javascript
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-html5 fa-2x mr-4"></i>
+              VueJS
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-wordpress-simple fa-2x mr-4"></i>
+              WordPress
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fab fa-git-alt fa-2x mr-4"></i>
+              Git
+            </v-chip>
           </div>
 
           <div class="skillGroup">
@@ -68,6 +99,7 @@
               text-color="white"
             >Adobe Illustrator</v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">Adobe Xd</v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">Adobe InDesign</v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
               <i class="fab fa-sketch fa-2x mr-4"></i>
               Sketch
