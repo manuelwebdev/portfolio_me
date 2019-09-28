@@ -92,25 +92,21 @@
 
           <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Design</h3>
-            <v-chip
-              class="ma-2 skillItem"
-              color="secondary"
-              label
-              text-color="white"
-            >Adobe Illustrator</v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">Adobe Xd</v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">Adobe InDesign</v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-sketch fa-2x mr-4"></i>
-              Sketch
+              <i class="fab fa-adobe fa-2x mr-4"></i>
+              Adobe Illustrator
             </v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-vuejs fa-2x mr-4"></i>
-              Vue JS
+              <i class="fab fa-adobe fa-2x mr-4"></i>
+              Adobe Xd
             </v-chip>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-html5 fa-2x mr-4"></i>
-              HTML5
+              <i class="fab fa-adobe fa-2x mr-4"></i>
+              Adobe InDesign
+            </v-chip>
+            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
+              <i class="fas fa-pen-nib fa-2x mr-4"></i>
+              UI/UX Design
             </v-chip>
           </div>
         </v-layout>
@@ -144,13 +140,9 @@
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
-        <v-flex xs12 sm6 md4 lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
+            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -159,29 +151,11 @@
                 </v-layout>
               </v-container>
             </v-img>
-            <v-card-title>
-              <div>
-                <span class="grey--text">Number 10</span>
-                <br />
-                <span>Whitehaven Beach</span>
-                <br />
-                <span>Whitsunday Island, Whitsunday Islands</span>
-              </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-layout column align-content-end>
-                <v-btn flat color="orange">Explore</v-btn>
-              </v-layout>
-            </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex xs12 sm6 md4 lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
+            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -190,28 +164,11 @@
                 </v-layout>
               </v-container>
             </v-img>
-            <v-card-title>
-              <div>
-                <span class="grey--text">Number 10</span>
-                <br />
-                <span>Whitehaven Beach</span>
-                <br />
-                <span>Whitsunday Island, Whitsunday Islands</span>
-              </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
-            </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex xs12 sm6 md4 lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
+            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -220,28 +177,11 @@
                 </v-layout>
               </v-container>
             </v-img>
-            <v-card-title>
-              <div>
-                <span class="grey--text">Number 10</span>
-                <br />
-                <span>Whitehaven Beach</span>
-                <br />
-                <span>Whitsunday Island, Whitsunday Islands</span>
-              </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
-            </v-card-actions>
           </v-card>
         </v-flex>
-        <v-flex xs12 sm6 md4 lg3 ma-2>
+        <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
+            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -250,21 +190,8 @@
                 </v-layout>
               </v-container>
             </v-img>
-            <v-card-title>
-              <div>
-                <span class="grey--text">Number 10</span>
-                <br />
-                <span>Whitehaven Beach</span>
-                <br />
-                <span>Whitsunday Island, Whitsunday Islands</span>
-              </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
-            </v-card-actions>
           </v-card>
-        </v-flex>
+        </v-flex>       
       </v-layout>
     </v-container>
   </div>
