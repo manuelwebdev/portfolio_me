@@ -143,7 +143,7 @@
         <v-flex xs12 sm6 md4 lg3>
           <v-card href="https://manuelwebdev.github.io/flexbox-example/#" hover>
             <v-img class="white--text" height="200px" :src="require('../assets/flexbox.png')">
-              <v-card-title>Flexbox</v-card-title>
+              <v-card-title class="display-2">Flexbox</v-card-title>
               <!-- <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
