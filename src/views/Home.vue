@@ -141,21 +141,22 @@
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
         <v-flex xs12 sm6 md4 lg3>
-          <v-card>
-            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
-              <v-container fill-height fluid>
+          <v-card href="https://manuelwebdev.github.io/flexbox-example/#" hover>
+            <v-img class="white--text" height="200px" :src="require('../assets/flexbox.png')">
+              <v-card-title>Flexbox</v-card-title>
+              <!-- <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
-                    <span class="headline">Top 10 Australian beaches</span>
+                    <span class="headline">Flexbox</span>
                   </v-flex>
                 </v-layout>
-              </v-container>
+              </v-container> -->
             </v-img>
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+            <v-img class="white--text" height="200px" :src="require('../assets/bootstrap.png')">
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
