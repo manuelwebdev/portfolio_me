@@ -143,19 +143,18 @@
       <v-card class="mx-auto" color="grey lighten-4" max-width="300">
         <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
           <v-expand-transition>
-            <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank">
+            <!-- <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank"> -->
               <div
                 v-if="hover"
-                class="d-flex transition-fast-in-fast-out secondary darken-2 v-card--reveal display-3 white--text"
+                class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
                 style="height: 100%;"
-              >
-                VIEW
-                <br />PAGE
+              ><a href="" class="white--text myLink">
+                FLEXBOX</a>
               </div>
-            </a>
+            <!-- </a> -->
           </v-expand-transition>
         </v-img>
-        <v-card-text class="pt-6" style="position: relative;">
+        <!-- <v-card-text class="pt-2" style="position: relative;">
           <v-btn
             href="https://manuelwebdev.github.io/flexbox-example/#"
             target="_blank"
@@ -169,8 +168,8 @@
           >
             <i class="fas fa-arrow-right fa-2x"></i>
           </v-btn>
-          <h3 class="display-1 font-weight-light orange--text mb-2">Flexbox</h3>
-        </v-card-text>
+          <h3 class="display-1 font-weight-light secondary--text">Flexbox</h3>
+        </v-card-text> -->
       </v-card>
     </v-hover>
 
@@ -180,67 +179,23 @@
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
-        <v-flex xs12 sm6 md4 lg3>
-          <v-card href="https://manuelwebdev.github.io/flexbox-example/#" hover>
-            <v-img class="white--text" height="200px" :src="require('../assets/flexbox.png')">
-              <v-card-title class="display-2">Flexbox</v-card-title>
-              <!-- <v-container fill-height fluid>
-                <v-layout fill-height>
-                  <v-flex xs12 align-end flexbox>
-                    <span class="headline">Flexbox</span>
-                  </v-flex>
-                </v-layout>
-              </v-container>-->
-            </v-img>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3>
-          <v-card>
-            <v-img class="white--text" height="200px" :src="require('../assets/bootstrap.png')">
-              <v-container fill-height fluid>
-                <v-layout fill-height>
-                  <v-flex xs12 align-end flexbox>
-                    <span class="headline">Top 10 Australian beaches</span>
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </v-img>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3>
-          <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
-              <v-container fill-height fluid>
-                <v-layout fill-height>
-                  <v-flex xs12 align-end flexbox>
-                    <span class="headline">Top 10 Australian beaches</span>
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </v-img>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3>
-          <v-card>
-            <v-img
-              class="white--text"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
-              <v-container fill-height fluid>
-                <v-layout fill-height>
-                  <v-flex xs12 align-end flexbox>
-                    <span class="headline">Top 10 Australian beaches</span>
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </v-img>
-          </v-card>
-        </v-flex>
+        <v-hover v-slot:default="{ hover }">
+      <v-card class="mx-auto" color="grey lighten-4" max-width="300">
+        <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
+          <v-expand-transition>
+            <!-- <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank"> -->
+              <div
+                v-if="hover"
+                class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
+                style="height: 100%;"
+              ><a href="" class="white--text myLink">
+                FLEXBOX</a>
+              </div>
+            <!-- </a> -->
+          </v-expand-transition>
+        </v-img>
+      </v-card>
+    </v-hover>
       </v-layout>
     </v-container>
   </div>
@@ -346,5 +301,11 @@ export default {
   opacity: 0.5;
   position: absolute;
   width: 100%;
+}
+
+.myLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 </style>
