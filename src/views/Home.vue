@@ -136,6 +136,46 @@
         </v-timeline-item>
       </v-timeline>
     </v-container>
+
+    <!-- -------- -->
+
+    <v-hover v-slot:default="{ hover }">
+      <v-card class="mx-auto" color="grey lighten-4" max-width="300">
+        <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
+          <v-expand-transition>
+            <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank">
+              <div
+                v-if="hover"
+                class="d-flex transition-fast-in-fast-out secondary darken-2 v-card--reveal display-3 white--text"
+                style="height: 100%;"
+              >
+                VIEW
+                <br />PAGE
+              </div>
+            </a>
+          </v-expand-transition>
+        </v-img>
+        <v-card-text class="pt-6" style="position: relative;">
+          <v-btn
+            href="https://manuelwebdev.github.io/flexbox-example/#"
+            target="_blank"
+            absolute
+            color="primary"
+            class="white--text"
+            fab
+            large
+            right
+            top
+          >
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </v-btn>
+          <h3 class="display-1 font-weight-light orange--text mb-2">Flexbox</h3>
+        </v-card-text>
+      </v-card>
+    </v-hover>
+
+    <!-- -------- -->
+
     <!-- ---------MY WORK------------ -->
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
@@ -150,7 +190,7 @@
                     <span class="headline">Flexbox</span>
                   </v-flex>
                 </v-layout>
-              </v-container> -->
+              </v-container>-->
             </v-img>
           </v-card>
         </v-flex>
@@ -169,7 +209,11 @@
         </v-flex>
         <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+            <v-img
+              class="white--text"
+              height="200px"
+              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+            >
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -182,7 +226,11 @@
         </v-flex>
         <v-flex xs12 sm6 md4 lg3>
           <v-card>
-            <v-img class="white--text" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+            <v-img
+              class="white--text"
+              height="200px"
+              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+            >
               <v-container fill-height fluid>
                 <v-layout fill-height>
                   <v-flex xs12 align-end flexbox>
@@ -192,7 +240,7 @@
               </v-container>
             </v-img>
           </v-card>
-        </v-flex>       
+        </v-flex>
       </v-layout>
     </v-container>
   </div>
@@ -205,6 +253,9 @@ import gsap from "scrollmagic";
 
 export default {
   components: {},
+  data: () => ({
+    overlay: false
+  }),
   mounted() {
     //------- GREENSOCK --------
     const { box } = this.$refs;
@@ -286,5 +337,14 @@ export default {
       }
     }
   }
+}
+
+.v-card--reveal {
+  align-items: center;
+  bottom: 0;
+  justify-content: center;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
 }
 </style>
