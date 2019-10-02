@@ -143,33 +143,15 @@
       <v-card class="mx-auto" color="grey lighten-4" max-width="300">
         <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
           <v-expand-transition>
-            <!-- <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank"> -->
-              <div
-                v-if="hover"
-                class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
-                style="height: 100%;"
-              ><a href="" class="white--text myLink">
-                FLEXBOX</a>
-              </div>
-            <!-- </a> -->
+            <div
+              v-if="hover"
+              class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
+              style="height: 100%;"
+            >
+              <a href class="white--text myLink">FLEXBOX</a>
+            </div>
           </v-expand-transition>
         </v-img>
-        <!-- <v-card-text class="pt-2" style="position: relative;">
-          <v-btn
-            href="https://manuelwebdev.github.io/flexbox-example/#"
-            target="_blank"
-            absolute
-            color="primary"
-            class="white--text"
-            fab
-            large
-            right
-            top
-          >
-            <i class="fas fa-arrow-right fa-2x"></i>
-          </v-btn>
-          <h3 class="display-1 font-weight-light secondary--text">Flexbox</h3>
-        </v-card-text> -->
       </v-card>
     </v-hover>
 
@@ -179,23 +161,21 @@
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
-        <v-hover v-slot:default="{ hover }">
-      <v-card class="mx-auto" color="grey lighten-4" max-width="300">
-        <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
-          <v-expand-transition>
-            <!-- <a href="https://manuelwebdev.github.io/flexbox-example/#" target="_blank"> -->
-              <div
-                v-if="hover"
-                class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
-                style="height: 100%;"
-              ><a href="" class="white--text myLink">
-                FLEXBOX</a>
-              </div>
-            <!-- </a> -->
-          </v-expand-transition>
-        </v-img>
-      </v-card>
-    </v-hover>
+        <v-hover v-slot:default="{ hover }" style="height: 400px;">
+          <v-card class="mx-auto" color="grey lighten-4" max-width="300">
+            <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
+              <v-expand-transition>
+                <div
+                  v-if="hover"
+                  class="d-flex transition-fast-in-fast-out secondary darken-1 v-card--reveal display-3 white--text"
+                  style="height: 100%;"
+                >
+                  <a href class="white--text myLink">FLEXBOX</a>
+                </div>
+              </v-expand-transition>
+            </v-img>
+          </v-card>
+        </v-hover>
       </v-layout>
     </v-container>
   </div>
@@ -304,8 +284,10 @@ export default {
 }
 
 .myLink {
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-decoration: none;
 }
 </style>
