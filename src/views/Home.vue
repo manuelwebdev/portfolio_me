@@ -161,7 +161,12 @@
     <v-container fluid class="accent" id="test">
       <h2 class="my-width mx-auto text-align display-3 white--text">My Work</h2>
       <v-layout class="my-width mx-auto">
-        <v-hover v-slot:default="{ hover }" style="height: 400px;">
+        <v-hover v-slot:default="{ hover }">
+          <v-card :elevation="hover ? 12 : 2" class="mx-auto" height="350" max-width="350">
+            <v-card-text class="my-4 text-center title">Hover over me!</v-card-text>
+          </v-card>
+        </v-hover>
+        <!-- <v-hover v-slot:default="{ hover }" style="height: 400px;">
           <v-card class="mx-auto" color="grey lighten-4" max-width="300">
             <v-img :aspect-ratio="4/3" :src="require('../assets/flexbox.png')">
               <v-expand-transition>
@@ -175,7 +180,7 @@
               </v-expand-transition>
             </v-img>
           </v-card>
-        </v-hover>
+        </v-hover>-->
       </v-layout>
     </v-container>
   </div>
