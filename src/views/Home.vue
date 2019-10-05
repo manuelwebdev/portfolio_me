@@ -27,37 +27,7 @@
         <!-- end headshot section -->
         <!-- --------------DIVIDER----------------- -->
         <v-layout xs6 class="mx-2 skillsBar">
-          <!-- <div class="skills">
-            <div class="primary lighten-2 body-1 font-weight-medium px-3 pt-1">HTML</div>
-            <div class="primary bar">
-              <div class="left"></div>
-              <div class="accent lighten-2 right black--text font-weight-light">90%</div>
-            </div>
-          </div>-->
-
-          <!-- <div class="skillGroup">
-            <h3 class="display-1 black--text skillHead">Development</h3>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-html5 fa-2x mr-4"></i>
-              <p class="skillText">HTML</p>
-            </v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-css3-alt fa-2x mr-4"></i>
-              <p class="skillText">CSS</p>
-            </v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-js fa-2x mr-4"></i>
-              <p class="skillText">Javascript</p>
-            </v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-vuejs fa-2x mr-4"></i>
-              <p class="skillText">Vue JS</p>
-            </v-chip>
-            <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
-              <i class="fab fa-git-alt fa-2x mr-4"></i>
-              <p class="skillText">Git</p>
-            </v-chip>
-          </div>-->
+          
           <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Coding</h3>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
