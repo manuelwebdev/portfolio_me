@@ -1,6 +1,6 @@
 <template>
   <div class="home white--text" id="myContainer">
-    <v-container fill-height fluid class="secondary myBanner">
+    <!-- <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
         <div ref="me">
           <h1 class="display-4 font-weight-thin ml-3">
@@ -9,7 +9,9 @@
           </h1>
         </div>
       </v-layout>
-    </v-container>
+    </v-container>-->
+      <!-- <v-img :src="require('../assets/banner.jpg')" contain></v-img> -->
+
 
     <!-- ---------TIMELINE------------ -->
     <v-container class="my-width mx-auto">
@@ -27,7 +29,6 @@
         <!-- end headshot section -->
         <!-- --------------DIVIDER----------------- -->
         <v-layout xs6 class="mx-2 skillsBar">
-          
           <div class="skillGroup">
             <h3 class="display-1 black--text skillHead">Coding</h3>
             <v-chip class="ma-2 skillItem" color="secondary" label text-color="white">
