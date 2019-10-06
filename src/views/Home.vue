@@ -1,6 +1,11 @@
 <template>
   <div class="home white--text" id="myContainer">
-    <!-- <v-container fill-height fluid class="secondary myBanner">
+    <v-row>
+      <v-col cols="12">
+<v-img :src="require('../assets/banner.jpg')"></v-img>
+      </v-col>
+    </v-row>
+    <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
         <div ref="me">
           <h1 class="display-4 font-weight-thin ml-3">
@@ -9,8 +14,7 @@
           </h1>
         </div>
       </v-layout>
-    </v-container>-->
-      <!-- <v-img :src="require('../assets/banner.jpg')" contain></v-img> -->
+    </v-container>
 
 
     <!-- ---------TIMELINE------------ -->
