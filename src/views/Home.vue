@@ -2,10 +2,17 @@
   <div class="home white--text" id="myContainer">
     <v-row>
       <v-col cols="12">
-<v-img :src="require('../assets/banner.jpg')"></v-img>
+        <v-img :src="require('../assets/banner.jpg')">
+          <div ref="me">
+            <h1 class="display-4 font-weight-thin ml-3">
+              Manuel
+              <br />Espinoza
+            </h1>
+          </div>
+        </v-img>
       </v-col>
     </v-row>
-    <v-container fill-height fluid class="secondary myBanner">
+    <!-- <v-container fill-height fluid class="secondary myBanner">
       <v-layout align-center justify-start class="my-width mx-auto">
         <div ref="me">
           <h1 class="display-4 font-weight-thin ml-3">
@@ -14,10 +21,34 @@
           </h1>
         </div>
       </v-layout>
-    </v-container>
-
+    </v-container>-->
 
     <!-- ---------TIMELINE------------ -->
+    <v-row>
+      <v-col cols="12">
+        <h2 class="text-align display-3 black--text">About Me</h2>
+      </v-col>
+      <v-col xl="6">
+        <v-avatar size="130" color="grey lighten-4">
+            <img src="../assets/profile.jpg" alt="avatar" />
+          </v-avatar>
+          <h5 class="headline black--text my-4">Hi I'm Manuel</h5>
+          <p
+            class="black--text px-5 myDesc"
+          >Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh.</p>
+      </v-col>
+    </v-row>
+
+
+
+
+
+
+
+
+
+
+
     <v-container class="my-width mx-auto">
       <h2 class="text-align display-3 black--text">About Me</h2>
       <v-layout row>
