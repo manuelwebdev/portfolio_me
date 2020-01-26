@@ -2,7 +2,7 @@
   <div class="home white--text" id="myContainer">
     <v-row>
       <v-col cols="12">
-        <v-img :src="require('../assets/banner_comp.jpg')">
+        <v-img :src="require('../assets/hero.jpg')">
           <div ref="me">
             <h1 class="display-4 font-weight-thin ml-3">
               Manuel
